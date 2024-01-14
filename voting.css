@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'dancingscript';
+    src: url('./Dancing_Script/DancingScript-VariableFont_wght.ttf');
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.main {
+    height: 100%;
+    margin: 0;
+    background-image: url(./background\ image\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: rgb(255 249 222); 
+}
+.votingBox {
+    background-color: #05bba0;
+    border-radius: 0.5rem; 
+    position: absolute;
+    padding: 0.5rem 1rem;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.heading {
+    text-align: center;
+    font-family: 'dancingscript';
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+    margin: 0.5rem 0rem;
+}
+
+input {
+    border-radius: 0.2rem;
+    border: none;
+    padding: 0.2rem 0.3rem;
+}
+input::placeholder{
+    color: gainsboro;
+}
+.addButton{
+    border-radius: 0.2rem;
+    padding: 0.15rem 0.4rem;
+    background-color: #69218c;
+    color: white;
+}
+tr{
+    display: flex;
+    border-radius: 0.2rem;
+    text-align: center !important;
+    background-color: #fcd218;
+    margin: 1rem 0rem;
+}
+.candidates-table td {
+    text-align: center;
+}
+.candidates-table td:nth-child(2){
+    margin: 0.2rem 5.4rem !important;
+}
+.candidates-table td:first-child{
+    margin: 0.1rem 0.5rem !important;
+}
+.candidates-table td:last-child{
+    margin: 0.1rem 0.5rem !important;
+}
+.candidates-table tr:hover {
+    background-color: #fffadd;
+    cursor: pointer;
+}

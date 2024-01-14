@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./voting.css">
+    <title>voting system</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="votingBox">
+            <div class="heading">
+                Add your friend or Vote
+            </div>
+            <div class="input">
+                <input type="text" id="newPersonName" placeholder="Enter Name">
+                <span onclick="addNewPerson()" class="addButton">Add Person<span>
+            </div>
+            <table class="candidates-table" id="friends">
+                <tbody id="friendsBody">
+                    <tr onclick="voteForFriend(1)">
+                        <td id="id-1">1</td>
+                        <td id="name-1">waqar</td>
+                        <td id="votecount-1">0</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </div>
+    </div>
+    <script src="./voting.js"></script>
+</body>
+
+</html>
